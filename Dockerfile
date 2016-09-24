@@ -21,7 +21,7 @@ RUN apt-get update && \
 	composer create-project nette/sandbox /srv && \
 	apt-get remove -y curl git && \
 	apt-get clean -y && apt-get autoclean -y && apt-get autoremove -y && \
-    rm -rf /var/lib/apt/lists/* /var/lib/log/* /tmp/* /var/tmp/*
+	rm -rf /var/lib/apt/lists/* /var/lib/log/* /tmp/* /var/tmp/*
 
 WORKDIR /srv
 
