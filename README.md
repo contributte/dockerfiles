@@ -18,6 +18,4 @@ There are many docker images that could help you:
 | Description   | Docker image           | Github   |
 |---------------|------------------------|----------|
 | Nette Sandbox | planette/nette-sandbox | [nette/sandbox](https://github.com/nette/sandbox) |
-| Nette Web Project | planette/nette-web-project | [nette/sandbox](https://github.com/nette/web-project) |
-
-![](https://raw.githubusercontent.com/planette/dockerfiles/master/.docs/sandbox.png "Nette Sandbox")
+| Nette Web Project | planette/nette-web-project | [nette/web-project](https://github.com/nette/web-project) |
