@@ -1,4 +1,4 @@
-# Nette Sandbox in Docker
+# Nette in Docker
 
 ## Protip
 
@@ -13,16 +13,11 @@ There are many docker images that could help you:
 - [dockette/ci](https://github.com/dockette/ci)
 - [dockette/devstack](https://github.com/dockette/devstack)
 
+## Images
 
-## Usage
+| Description   | Docker image           | Github   |
+|---------------|------------------------|----------|
+| Nette Sandbox | planette/nette-sandbox | [nette/sandbox](https://github.com/nette/sandbox) |
+| Nette Web Project | planette/nette-web-project | [nette/sandbox](https://github.com/nette/web-project) |
 
-You have to download and run our special docker image via following command.
-
-```bash
-docker run -it --rm -p 8000:80 fonette/sandbox
-```
-
-Now you can open `http://localhost:8000` in your browser.
-
-
-![](https://raw.githubusercontent.com/FriendsOfNette/docker-sandbox/master/sandbox.png "Nette Sandbox")
+![](https://raw.githubusercontent.com/planette/dockerfiles/master/.docs/sandbox.png "Nette Sandbox")
