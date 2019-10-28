@@ -1,7 +1,5 @@
 # Nette in Docker
 
-## Protip
-
 <img align="right" src="https://github.com/dockette.png">
 
 In case of you're looking for a fullstack Docker solution to Nette Framework. Take a look at [Dockette](https://github.com/dockette/).
