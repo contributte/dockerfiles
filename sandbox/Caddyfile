@@ -1,0 +1,20 @@
+# Listening on
+:80
+
+# Set the document root of the site.
+root * /srv/www
+
+# Compress the transmitted data
+encode gzip
+
+# Enable logging
+log
+
+# Set the path to the php-fpm process.
+php_fastcgi unix//var/run/php-fpm.sock
+
+# Global options
+{
+  # Disable admin
+  admin off
+}

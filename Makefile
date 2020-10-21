@@ -1,5 +1,10 @@
-build-sandbox:
-	docker build -t planette/nette-sandbox sandbox
+.PHONY: build dev bash
 
-build-web-project:
-	docker build -t planette/nette-web-project web-project
+build:
+	docker build -t planette/nette sandbox
+
+dev:
+	docker run -it --rm -p 8000:80 --name planette-nette planette/nette
+
+bash:
+	docker exec -it planette-nette bash
