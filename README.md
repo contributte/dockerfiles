@@ -55,5 +55,5 @@ Now you can open `http://localhost:8000` in your browser.
 
 -----
 
-Consider to [support](https://contributte.org/partners.html) **planette** development team.
+Consider to [support](https://contributte.org/partners.html) **contributte** development team.
 Also thank you for using this project.
