@@ -29,21 +29,21 @@ there are preinstalled [PHP 7.4 FPM](https://deb.sury.org/), [Composer](https://
 
 You can build this image locally, using:
 
-```
+```bash
 make build
 ```
 
-```
+```bash
 docker build -t planette/nette ./sandbox
 ```
 
 ### Usage
 
-```
+```bash
 make dev
 ```
 
-```
+```bash
 docker run -it --rm -p 8000:80 planette/nette
 ```
 
