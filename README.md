@@ -1,4 +1,4 @@
-# Nette in Docker
+# Nette Docker / Nette Dockerfles
 
 <img align="right" src="https://github.com/dockette.png">
 
@@ -34,7 +34,7 @@ make build
 ```
 
 ```bash
-docker build -t planette/nette ./sandbox
+docker build -t nette ./sandbox
 ```
 
 ### Usage
@@ -44,14 +44,14 @@ make dev
 ```
 
 ```bash
-docker run -it --rm -p 8000:80 planette/nette
+docker run -it --rm -p 8000:80 nette
 ```
 
 Now you can open `http://localhost:8000` in your browser.
 
 ### Demo
 
-![](https://raw.githubusercontent.com/planette/dockerfiles/master/.docs/sandbox.png "Nette Sandbox")
+![](https://raw.githubusercontent.com/contributte/dockerfiles/master/.docs/sandbox.png "Nette Sandbox")
 
 -----
 
