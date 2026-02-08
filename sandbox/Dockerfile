@@ -33,7 +33,7 @@ ADD ./php.ini /etc/php/8.5/conf.d/999-php.ini
 ADD ./php-fpm.conf /etc/php/8.5/php-fpm.conf
 ADD ./entrypoint.sh /entrypoint.sh
 
-RUN composer create-project nette/sandbox /srv && \
+RUN composer create-project nette/web-project /srv && \
 	chmod 0777 /srv/temp && \
 	chmod 0777 /srv/log && \
 	rm -rf /srv/tests
